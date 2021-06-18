@@ -140,6 +140,9 @@ function addTask() {
             displayErrorToast('No input task to add');
         });
     document.getElementById('task').value = "";
+    if(taskData!= ""){
+        displaySuccessToast("Your task has been added succesfully")
+    }
 
 }
 
